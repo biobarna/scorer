@@ -1,0 +1,27 @@
+[project]
+name = "biobarna-scorer"
+version = "0.1.0"
+
+dependencies = [
+    "pandas",
+    "requests",
+    "jupyter_core",
+    "pyjwt",
+    "ipykernel",
+    "jupyterlab",
+    "matplotlib",
+    "numpy",
+    "seaborn",
+    "networkx",
+    "cryptography",
+    "apache-beam",
+    "geopandas",
+    "pygeos",
+    "folium",
+    "rasterio",
+]
+
+[tool.setuptools.packages.find]
+include = [
+    "biobarna-scorer",
+]
